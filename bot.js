@@ -2,7 +2,8 @@ const Discord = require('discord.js');
 
 const client = new Discord.Client();
 
- 
+ module.exports.run = async (bot, message, args) => {
+}
 
 client.on('ready', () => {
 
@@ -10,6 +11,12 @@ client.on('ready', () => {
 });
 const prefix = "!";
 client.on("message", (message) => {
+	  if (!message.content.startsWith(prefix) || message.author.bot) return;
+  if (message.content.startsWith(prefix + "clear"));
+	message.channel.bulkDelete(args[0]).then(() => {
+		message.channel.send("Killed ${args[0]} messages.").then(msg => msg.delete(5000));
+	});
+  
   if (!message.content.startsWith(prefix) || message.author.bot) return;
 
   if (message.content.startsWith(prefix + "ping")) {
