@@ -5,7 +5,8 @@ const client = new Discord.Client();
 client.on('ready', () => {
 
     console.log('I am ready!');
-	client.on("message", (message) => {
+});
+client.on("message", (message) => {
   if (message.content.startsWith("Bakugou")) {
     message.channel.send("Eh?! Why are you talking about? You wanna fight me?!");
   }
