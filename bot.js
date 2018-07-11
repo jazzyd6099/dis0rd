@@ -15,7 +15,6 @@ if (message.content.startsWith("bakugou")) {
     message.channel.send("Why are you fucking talking about me? You wanna fight?!"); 
 });
 const prefix = "!";
-//Ping
 client.on("message", (message) => {
   if (message.content.startsWith(prefix + "ping")) {
     message.channel.send("Fuck off.");
