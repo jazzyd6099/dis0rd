@@ -12,7 +12,7 @@ client.on("message", (message) => {
 
   if (message.content.startsWith(prefix + "ping")) {
     message.channel.send("Fuck off.");
-  } else
+	   } else
   if (message.content.startsWith(prefix + "foo")) {
     message.channel.send("What the fuck?");
 	   } else
