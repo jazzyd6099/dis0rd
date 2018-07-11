@@ -9,28 +9,37 @@ client.on('ready', () => {
 client.on("message", (message) => {
   if (message.content.startsWith("Bakugou")) {
     message.channel.send("Eh?! Why are you talking about me? You wanna fight?!");
-  }
+  } else
+if (message.content.startsWith("bakugou")) {
+    message.channel.send("Why are you fucking talking about me? You wanna fight?!"); 
 });
 const prefix = "!";
+//Ping
 client.on("message", (message) => {
   if (message.content.startsWith(prefix + "ping")) {
     message.channel.send("Fuck off.");
 	   } else
+		   //Foo
   if (message.content.startsWith(prefix + "foo")) {
     message.channel.send("What the fuck?");
 	   } else
+		   //Hello Bakugou
   if (message.content.startsWith(prefix + "hi Bakugou")) {
     message.channel.send("Shut up, dumbass.");
 	   } else
+		   //Bleh
   if (message.content.startsWith(prefix + "Bleh")) {
     message.channel.send("Blah, blah, blah. Just shut up.");
 	   } else
+		   //Help
   if (message.content.startsWith(prefix + "help")) {
     message.channel.send("No, ask another fucking bot.");
 	  } else
+		  //Iloveyou
   if (message.content.startsWith(prefix + "iloveyou")) {
     message.channel.send("Disgusting.");
 	  } else
+		  //I love you
   if (message.content.startsWith(prefix + "i love you")) {
     message.channel.send("No, disgusting.");
 	   } else
