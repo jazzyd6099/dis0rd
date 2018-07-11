@@ -8,7 +8,7 @@ client.on('ready', () => {
 });
 client.on("message", (message) => {
   if (message.content.startsWith("Bakugou")) {
-    message.channel.send("Eh?! Why are you talking about me? You wanna fight me?!");
+    message.channel.send("Eh?! Why are you talking about me? You wanna fight?!");
   }
 });
 const prefix = "!";
