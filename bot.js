@@ -8,7 +8,7 @@ client.on('ready', () => {
 });
 client.on("message", (message) => {
   if (message.content.startsWith("Bakugou")) {
-    message.channel.send("Eh?! Why are you talking about me? You wanna fight ?!");
+    message.channel.send("Eh?! Why are you talking about me? You wanna fight?!");
 	    } else
 if (message.content.startsWith("bakugou")) {
     message.channel.send("Why are you fucking talking about me? You wanna fight?!"); 
