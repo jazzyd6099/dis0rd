@@ -42,6 +42,9 @@ client.on("message", (message) => {
 	   } else
   if (message.content.startsWith(prefix + "bakugou")) {
     message.channel.send("What do you fucking want?");
+	   } else
+  if (message.content.startsWith(prefix + "todoroki")) {
+    message.channel.send("Fucking half-and-half. He can fuck off.");
        }
 
 });
