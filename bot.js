@@ -48,6 +48,9 @@ client.on("message", (message) => {
 	  	   } else
   if (message.content.startsWith(prefix + "todoroki")) {
     message.channel.send("Fucking half-and-half. He can fuck off.");
+	   } else
+  if (message.content.startsWith(prefix + "get kirishima")) {
+    message.channel.send("KIRISHIMA!");
   }
 
 });
