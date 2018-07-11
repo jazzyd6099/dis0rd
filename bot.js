@@ -8,16 +8,17 @@ client.on('ready', () => {
 });
 client.on("message", (message) => {
   if (message.content.startsWith("Bakugou")) {
-    message.channel.send("Eh?! Why are you talking about me? You wanna fight?!");
-  } else
+    message.channel.send("Eh?! Why are you talking about me? You wanna fight ?!");
+	    } else
 if (message.content.startsWith("bakugou")) {
     message.channel.send("Why are you fucking talking about me? You wanna fight?!"); 
+  }
 });
 const prefix = "!";
 client.on("message", (message) => {
   if (message.content.startsWith(prefix + "ping")) {
     message.channel.send("Fuck off.");
-	   } else
+} else
   if (message.content.startsWith(prefix + "foo")) {
     message.channel.send("What the fuck?");
 	   } else
