@@ -8,8 +8,6 @@ client.on('ready', () => {
 });
 const prefix = "!";
 client.on("message", (message) => {
-  if (!message.content.startsWith(prefix) || message.author.bot) return;
-
   if (message.content.startsWith(prefix + "ping")) {
     message.channel.send("Fuck off.");
 	   } else
@@ -39,10 +37,10 @@ client.on("message", (message) => {
 	   } else
   if (message.content.startsWith(prefix + "bakugou")) {
     message.channel.send("What do you fucking want?");
-	   } else
+	  	   } else
   if (message.content.startsWith(prefix + "todoroki")) {
     message.channel.send("Fucking half-and-half. He can fuck off.");
-       }
+  }
 
 });
 
