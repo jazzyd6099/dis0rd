@@ -40,6 +40,9 @@ client.on("message", (message) => {
   if (message.content.startsWith(prefix + "how is kirishima")) {
     message.channel.send("Shitty hair is doing fine.");
 
+    if (message.content === 'Bakugou') {
+
+       message.reply('Why are you fucking talking about me? You wanna fight?!');
        }
 
 });
