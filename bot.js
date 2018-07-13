@@ -14,7 +14,10 @@ if (message.content.startsWith("bakugou")) {
     message.channel.send("Why are you fucking talking about me? You wanna fight?!"); 
 	 } else
 if (message.content.startsWith("Hey Bakugou!")) {
-    message.channel.send("Tch. This person told me to get you. Happy now person? Better be.");
+    message.channel.send("Tch. This person told me to get you. Happy now? Better be.");
+} else
+	if (message.content.startsWith("prefix")) {
+		message.channel.send("Tch. It's !");
   }
 });
 const prefix = "!";
