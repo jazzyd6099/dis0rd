@@ -24,9 +24,9 @@ if (message.content.startsWith("Hey Bakugou!")) {
 			} else
 		if (message.content.startsWith("Hey, be nice")) {
 		message.channel.send("Fine. Maybe later on. Just not now!");
-		} else
-			if (message.contnt.startsWith(":boom:")) {
-			message.channel.send("Fuck, it's not cool if it's just emoji's. That's the best you can fucking get!);
+			} else
+		if (message.content.startsWith(":boom:")) {
+		message.channel.send("Fuck, it's not cool if it's just emoji's. That's the best you can fucking get!");
   }
 });
 const prefix = "!";
