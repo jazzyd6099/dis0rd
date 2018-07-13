@@ -20,7 +20,7 @@ if (message.content.startsWith("Hey Bakugou!")) {
 		message.channel.send("Fuck off. It's !");
 	} else
 		if (message.content.startsWith("I love my bot family")) {
-		message.channel.send(" Tch. I don't care. Fuck off.");
+		message.channel.send("I don't care. Fuck off.");
   }
 });
 const prefix = "!";
