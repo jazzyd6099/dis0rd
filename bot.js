@@ -24,6 +24,9 @@ if (message.content.startsWith("Hey Bakugou!")) {
 			} else
 		if (message.content.startsWith("Hey, be nice")) {
 		message.channel.send("Fine. Maybe later on. Just not now!");
+		} else
+			if (message.contnt.startsWith(":boom:")) {
+			message.channel.send("Fuck, it's not cool if it's just emoji's. That's the best you can fucking get!);
   }
 });
 const prefix = "!";
@@ -66,6 +69,9 @@ client.on("message", (message) => {
   } else
 	  if (message.content.startsWith(prefix + "give me a nickname")) {
 		  message.channel.send("Fuck no! Ask someone else.");
+	  } else 
+		if (message.content.startsWith(prefix + "use your quirk")) {
+			message.reply(":boom: This will be fun. :boom:");
   }
 
 });
