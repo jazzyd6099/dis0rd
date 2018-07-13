@@ -18,6 +18,9 @@ if (message.content.startsWith("Hey Bakugou!")) {
 } else
 	if (message.content.startsWith("prefix?")) {
 		message.channel.send("Fuck off. It's !");
+	} else
+		if (message.content.startsWith("I love my bot family")) {
+		message.channel.send(" Tch. I don't care. Fuck off.");
   }
 });
 const prefix = "!";
