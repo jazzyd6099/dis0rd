@@ -21,6 +21,9 @@ if (message.content.startsWith("Hey Bakugou!")) {
 	} else
 		if (message.content.startsWith("I love my bot family")) {
 		message.channel.send("I don't care. Fuck off.");
+		} else
+			if (message.content.startsWith("Hey! Be nice.")) {
+			message.channel.send("Fine. Maybe later on. Just not now!);
   }
 });
 const prefix = "!";
@@ -60,6 +63,9 @@ client.on("message", (message) => {
 	   } else
   if (message.content.startsWith(prefix + "get kirishima")) {
     message.channel.send("KIRISHIMA!");
+  } else
+	  if (message.content.startsWith(prefix + "give me a nickname")) {
+		  message.channel.send("Fuck no! Ask someone else.");
   }
 
 });
