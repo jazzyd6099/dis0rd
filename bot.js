@@ -17,7 +17,7 @@ if (message.content.startsWith("Hey Bakugou!")) {
     message.channel.send("Tch. This person told me to get you. Happy now? Better be.");
 } else
 	if (message.content.startsWith("prefix?")) {
-		message.channel.send("Tch. It's !");
+		message.channel.send("Fuck off. It's !");
   }
 });
 const prefix = "!";
