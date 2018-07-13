@@ -71,7 +71,7 @@ client.on("message", (message) => {
 		  message.channel.send("Fuck no! Ask someone else.");
 	  } else 
 		if (message.content.startsWith(prefix + "use your quirk")) {
-			message.reply(":boom: This will be fun. :boom:");
+			message.channel.send(":boom: This will be fun. :boom:");
   }
 
 });
