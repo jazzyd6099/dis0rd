@@ -40,7 +40,7 @@ client.on("message", (message) => {
   if (message.content.startsWith(prefix + "hi Bakugou")) {
     message.channel.send("Shut up, dumbass.");
 	   } else
-  if (message.content.startsWith(prefix + "Bleh")) {
+  if (message.content.startsWith(prefix + "bleh")) {
     message.channel.send("Blah, blah, blah. Just shut up.");
 	   } else
   if (message.content.startsWith(prefix + "help")) {
