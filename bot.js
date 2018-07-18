@@ -5,7 +5,7 @@ const client = new Discord.Client();
 client.on('ready', () => {
     console.log('Tch. Shut up.');
 	
-		client.user.setPresence({ game: { name: 'Beating your fucking ass!' }, status: 'Do Not Disturb' })
+		client.user.setPresence({ game: { name: 'Beating your fucking ass!' }, status: 'dnd' })
   .then(console.log)
   .catch(console.error);
 });
