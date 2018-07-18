@@ -37,22 +37,6 @@ client.on('ready', () => {
   .then(console.log)
   .catch(console.error);
 });
-client.on("message", function(message) {
-    if (message.author.equals(bot.user)) return;
-
-    if (!message.content.startsWith(prefix)) return;
-
-    var args = message.content.substring(prefix.length).split(" ");
-
-    switch (args[0].toLowerCase()) {
-case "give me a nickname"
-if (args[1]) {
-                //message.channel.sendMessage(nicknames[Math.floor(Math.random() * nicknames.length)]);
-                message.channel.send({embed: {
-                    color: embedRed,
-                    title: "You look like...",
-                    description: (nicknames[Math.floor(Math.random() * nicknames.length)]),
-                    }});
 client.on("message", (message) => {
   if (message.content.startsWith("Bakugou")) {
     message.channel.send("Eh?! Why are you talking about me? You wanna fight?!");
