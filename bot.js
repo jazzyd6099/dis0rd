@@ -103,6 +103,12 @@ client.on("message", (message) => {
 	  } else 
 		if (message.content.startsWith(prefix + "use your quirk")) {
 		message.channel.send(":boom: This will be fun. :boom:");
+						  	} else
+			if (message.content.startsWith(prefix + "kill")) {
+				let killedUser = message.mentions.users.first();
+            
+            if(message.mentions.users.size < 1) return message.reply("You fucking forgot to name someone to fucking kill, dumbass!");
+            message.reply("You just fucking killed " + killedUser);
 }
 
 });
