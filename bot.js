@@ -105,8 +105,6 @@ client.on("message", (message) => {
 			message.channel.send(":boom: This will be fun. :boom:");
 }
 
-  }
-
 });
 
 
