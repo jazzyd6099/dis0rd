@@ -102,7 +102,7 @@ client.on("message", (message) => {
 			message.reply('Shut up,' + doMagic8BallVoodoo());
 	  } else 
 		if (message.content.startsWith(prefix + "use your quirk")) {
-			message.channel.send(":boom: This will be fun. :boom:");
+		message.channel.send(":boom: This will be fun. :boom:");
 }
 
 });
