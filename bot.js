@@ -45,7 +45,7 @@ if (message.content.startsWith("bakugou")) {
     message.channel.send("Why are you fucking talking about me? You wanna fight?!"); 
 	 } else
 if (message.content.startsWith("Hey Bakugou!")) {
-    message.channel.send("Tch." + message.auther "told me to get you. Happy now? Better be.");
+    message.channel.send("Tch." + message.author "told me to get you. Happy now? Better be.");
 } else
 	if (message.content.startsWith("prefix?")) {
 		message.channel.send("Fuck off. It's '!'");
