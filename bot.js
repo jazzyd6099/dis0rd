@@ -5,7 +5,7 @@ const client = new Discord.Client();
 client.on('ready', () => {
     console.log('Tch. Shut up.');
 	
- client.user.setGame("Beating your fucking ass!")
+ client.user.setActivity("Beating your fucking ass!")
 });
 client.on("message", (message) => {
   if (message.content.startsWith("Bakugou")) {
