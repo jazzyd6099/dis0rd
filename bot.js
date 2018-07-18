@@ -2,6 +2,34 @@ const Discord = require('discord.js');
 
 const client = new Discord.Client();
 
+function doMagic8BallVoodoo() {
+    var rand = [
+    "Deku.",
+    "Shitty hair.",
+    "Raccoon eyes.",
+    "Soy sauce face.",
+    "Sound girl.",
+    "Nerd.",
+    "Four eyes.",
+    "Glasses.",
+    "Ponytail.",
+    "Half and half.",
+    "Shitty Deku!",
+    "Dunce face.",
+    "Round face.",
+    "Icyhot.",
+    "Bug eyes.",
+    "Little runt.",
+    "Monkey.",
+    "Big lips.",
+    "Rock face.",
+    "Fithy toad.",
+];
+
+    return rand[Math.floor(Math.random()*rand.length)];
+}
+
+
 client.on('ready', () => {
     console.log('Tch. Shut up.');
 	
@@ -9,6 +37,22 @@ client.on('ready', () => {
   .then(console.log)
   .catch(console.error);
 });
+client.on("message", function(message) {
+    if (message.author.equals(bot.user)) return;
+
+    if (!message.content.startsWith(prefix)) return;
+
+    var args = message.content.substring(prefix.length).split(" ");
+
+    switch (args[0].toLowerCase()) {
+case "give me a nickname"
+if (args[1]) {
+                //message.channel.sendMessage(nicknames[Math.floor(Math.random() * nicknames.length)]);
+                message.channel.send({embed: {
+                    color: embedRed,
+                    title: "You look like...",
+                    description: (nicknames[Math.floor(Math.random() * nicknames.length)]),
+                    }});
 client.on("message", (message) => {
   if (message.content.startsWith("Bakugou")) {
     message.channel.send("Eh?! Why are you talking about me? You wanna fight?!");
@@ -71,10 +115,12 @@ client.on("message", (message) => {
     message.channel.send("KIRISHIMA!");
   } else
 	  if (message.content.startsWith(prefix + "give me a nickname")) {
-		  message.channel.send("Fuck no! Ask someone else.");
+			message.reply('Shut up,' + doMagic8BallVoodoo());
 	  } else 
 		if (message.content.startsWith(prefix + "use your quirk")) {
 			message.channel.send(":boom: This will be fun. :boom:");
+}
+
   }
 
 });
