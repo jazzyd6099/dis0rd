@@ -37,7 +37,7 @@ client.on("message", (message) => {
   if (message.content.startsWith(prefix + "foo")) {
     message.channel.send("What the fuck?");
 	   } else
-  if (message.content.startsWith(prefix + "hi Bakugou")) {
+  if (message.content.startsWith(prefix + "hi bakugou")) {
     message.channel.send("Shut up, dumbass.");
 	   } else
   if (message.content.startsWith(prefix + "bleh")) {
