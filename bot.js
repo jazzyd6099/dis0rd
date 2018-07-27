@@ -65,7 +65,7 @@ if (message.content.startsWith("Hey Bakugou!")) {
 		 if (message.content == "i'm fine.".toLowerCase() || message.content == "I'm fine.".toLowerCase()) {
 			 message.author.send("No you're not fucking fine! Fine never means fine.");
 			} else
-				if message.content.startsWith("No you're not fucking fine! Fine never means fine.")){
+			if (message.content.startsWith("No you're not fucking fine! Fine never means fine.")){
 				message.channel.send("Tell me what the fuck is wrong! I can't respond to what you say but I can fucking listen. Vent!");
 				} else
 		 if (message.content == "No..".toLowerCase() || message.content == "no..".toLowerCase()) {
