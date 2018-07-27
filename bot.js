@@ -62,7 +62,7 @@ if (message.content.startsWith("Hey Bakugou!")) {
 	 if (message.content == "I hate myself".toLowerCase() || message.content == "I hate myself.".toLowerCase() || message.content == "i hate myself".toLowerCase() || message.content == "i hate myself.".toLowerCase()){
 		message.author.send("Tch. You okay?")
 	 } else
-		 if (message.content == "i'm fine.".toLowerCase() || message.content == "I'm fine.".toLowerCase()) {
+		 if (message.content == "i'm fine.".toLowerCase() || message.content == "i'm fine".toLowerCase() || message.content == "I'm fine".toLowerCase() || message.content == "I'm fine.".toLowerCase()){
 			 message.author.send("No you're not fucking fine! Fine never means fine.");
 			} else
 			if (message.content.startsWith("No you're not fucking fine! Fine never means fine.")){
