@@ -61,6 +61,9 @@ if (message.content.startsWith("Hey Bakugou!")) {
 		} else
 	 if (message.content == "I hate myself".toLowerCase() || message.content == "I hate myself." || message.content == "i hate myself".toLowerCase() || message.content == "i hate myself.".toLowerCase()){
 		message.author.send("Tch. You okay?")
+	 } else
+		 if (message.content.startsWith("No..")) {
+			 message.author.send("**sighs** You want to talk about it?");
   }
 });
 const prefix = "!";
