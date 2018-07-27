@@ -77,7 +77,7 @@ if (message.content.startsWith("Hey Bakugou!")) {
 				 if (message.content.startsWith("I won't be able to respond but I can listen. Fucking vent your guts out. Then be fucking badass afterwards! I'll be here, I guess.")) {
 					 message.channel.send("If you tell the others about this, i'll kill you!");
 				 } else
-					 if (message.content == "Okay Bakugou :joy:".toLowerCase() || message.content == "Okay Bakugou".toLowerCase() || message.content == "okay bakugou".toLowerCase()){
+					 if (message.content == "Okay Bakugou :joy:".toLowerCase() || message.content == "Okay Bakugou" || message.content == "okay bakugou".toLowerCase()){
 						 message.channel.send("Tch");
   }
 });
