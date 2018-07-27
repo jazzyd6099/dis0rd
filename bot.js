@@ -68,7 +68,7 @@ if (message.content.startsWith("Hey Bakugou!")) {
 			 if (message.content.startsWith("Yeah..")) {
 				 message.author.send("I won't be able to respond but I can listen. Fucking vent your guts out. Then be fucking badass afterwards! I'll be here, I guess.");
 			 } else
-				 if (message.content.startsWith("I wont be able to respond")) {
+				 if (message.content.startsWith("I won't be able to respond but I can listen. Fucking vent your guts out. Then be fucking badass afterwards! I'll be here, I guess.")) {
 					 message.channel.send("If you tell the others about this, i'll kill you!");
   }
 });
