@@ -59,7 +59,7 @@ if (message.content.startsWith("Hey Bakugou!")) {
 		if (message.content.startsWith(":boom:")) {
 		message.channel.send("Fuck, it's not cool if it's just emoji's. That's the best you can fucking get!");
 		} else
-	 if (message.content == "I hate myself".toLowerCase() || message.content == "I hate myself." || message.content == "i hate myself".toLowerCase() || message.content == "i hate myself.".toLowerCase()){
+	 if (message.content == "I hate myself".toLowerCase() || message.content == "I hate myself.".toLowerCase() || message.content == "i hate myself".toLowerCase() || message.content == "i hate myself.".toLowerCase()){
 		message.author.send("Tch. You okay?")
 	 } else
 		 if (message.content == "i'm fine.".toLowerCase() || message.content == "I'm fine.".toLowerCase()) {
